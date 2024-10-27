@@ -1,0 +1,321 @@
+html, body {
+    height: 100%; /* Ensure full height for the page */
+    overflow-x: hidden; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
+  }
+  .logo {
+    margin: 10px 30px 30px ;
+    margin-right: 130px;
+    width: 200px;
+    height: auto;
+    background: transparent;
+  }
+  
+  .Header {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  h3 {
+    display: flex;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: font-size 200ms, color 200ms; 
+  }
+  
+  h3:hover {
+    font-size: 1.4rem; 
+    color: orange;
+  }
+  
+  .dropdown {
+    font-size: 1rem;
+    position: absolute; 
+    background-color: rgb(239, 119, 8); 
+    border: solid 1px; 
+    border-radius: 20px;
+    z-index: 1; 
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px; 
+    visibility: hidden; 
+    opacity: 0; 
+    transition: visibility 0s, opacity 0.2s ease; 
+    color: white;
+  }
+  
+  
+  .dropdown.show {
+      visibility: visible; 
+      opacity: 1; 
+      padding: 10px;
+  }
+  
+  .dropdown h4 {
+      margin: 5px 0; 
+      cursor: pointer; 
+  }
+  
+  .dropdown h4:hover {
+      background-color: #2e2c2c;
+  }
+  
+  .buttonele {
+    background-color: rgb(103, 103, 220);
+    width: 200px;
+    align-items: center;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto; 
+    margin-right: 40px;
+  }
+  
+  .button {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  .buttonele:hover {
+    background-color: black;
+    transition: background-color 0.5s;
+  }
+  
+  footer {
+    margin-top: auto;
+    background-color: rgb(222, 99, 5); /* Apply the background color here */
+}
+
+.bruv {
+    color: #ffffff; 
+    font-size: 1.1rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bruvno {
+    background-color: inherit; /* Apply the background color from the parent */
+    display: flex;
+    background-color: rgb(219, 104, 16);
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.3px;
+    
+}
+
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  .initial {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    position: relative; 
+    top: 70%; 
+    left: 0;
+    padding: 0%;
+    min-height: 100vh;
+  }
+  
+  .textinitial {
+    margin-left: 130px;
+    color: rgb(242, 117, 117);
+    font-size: 1.2rem;
+    margin-top: 100px;
+  }
+  
+  .initheader {
+    margin-left: 130px;
+    font-size: 3.5rem;
+  }
+  
+  .half2 {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    position: relative; 
+    margin-left: auto;
+    top: 70%; 
+    right: 0;
+    padding: 0%;
+    min-height: 100vh;
+    margin-top: 0;
+  }
+  
+  .text2 {
+    margin-top: 100px;
+    margin-right: 60px;
+    font-size: 1.3rem;
+  }
+  .headers2 {
+    margin-top: 50px;
+  }
+  
+  .header2 {
+    font-size: 1.9rem;
+  }
+  
+  
+  .UD66 {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-left: 70px;
+    cursor: pointer;
+  
+  }
+  .UD67 {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 70px;
+    margin-right: 70px;
+    cursor: pointer;
+  }
+  
+  .label {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .environmentally-friendly {
+    background-color: #ff8c00;
+    margin-bottom: 410px;
+    margin-left: 60px;
+  }
+  
+  .renewable-resource {
+    background-color: #556b2f;
+  }
+  
+  .herocontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f3ee;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 0; /* Set gap to 0 to remove space */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .firsthalf {
+    width: 50%;
+    top: 70%;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .headercom {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-right: 80px;
+  }
+  .enrolltext {
+    margin-right: 80px;
+    margin-bottom: 70px;
+  }
+  .enrollbutton {
+    color: white;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    width: 170px;
+    height: 44px;
+    border: solid 1px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  
+  .enrollbutton:hover{
+    background-color: #bd5a04;
+    transition: background-color 0.3s ease-in;
+  }
+  
+  .familyhouse {
+    width: 520px;
+    height: 420px;
+    border-radius: 10px;
+  }
+  
+  .sechalf {
+    left: 0;
+    width: 50%;
+    
+    top: 70%;
+    right: 0;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .familycontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .firsthalf, .sechalf {
+    width: 50%;
+  }
+  
+  .container-bubble {
+    width: 100%;
+    background-color: #f0f3ee;
+    padding: 0 0 100px 100px;
+  }
+  .content-sub {
+    color: rgb(247, 98, 98);
+    font-size: 1.1rem;
+    padding: 20px 0px 0px 0px;
+    
+  }
+  
+  .content-header {
+    color: #2e2c2c;
+  }

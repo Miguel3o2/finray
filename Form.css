@@ -1,0 +1,122 @@
+.form-section {
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 30px 130px 50px 130px;
+    background-size: cover; /* or contain, depending on your needs */
+  }
+ 
+  .form-content {
+    height: 100%;
+    display: flex;               
+    justify-content: space-between; 
+    align-items: flex-start;    
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;
+    background-image: linear-gradient(
+        rgba(36, 45, 108, 0.8),  /* Dark overlay with 80% opacity */
+        rgba(36, 45, 108, 0.8)
+      ), 
+      url("https://test.techharbors.com/wp-content/uploads/2024/09/Untitled-design-76.jpg");
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: #242D6C; 
+    opacity: 0.9; 
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+  
+  
+  .text-container {
+    flex: 1;             
+    margin-right: 10px;        
+  }
+  
+  .input-container {
+    flex: 1;                   
+  }
+  
+  .form-heading {
+    color: #FF6600;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 100px;
+  }
+  
+  .form-subheading {
+    font-size: 3rem;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .form-info {
+    font-size: 1.3rem;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    margin-top: 20px;
+    width: 48%;  
+    margin-bottom: none;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .form-input, .form-textarea {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    margin-top: 5px;
+    right: 0;
+    margin-left: auto;
+  }
+  .form-input{
+    padding: 10px;         /* Adjust padding to reduce height */
+    margin-bottom: 0;   /* Adds space between fields */
+    width: 100%;           /* Ensures fields take up full width */
+    box-sizing: border-box; /* Prevents width from expanding with padding */
+    border-radius: 5px;    /* Optional: rounded corners */
+  }
+  .form-textarea {
+    height: 100px;
+    resize: none;
+    width: 86%;
+  }
+  
+  .form-error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .form-button {
+    width: 240px;
+    padding: 10px;
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    height: 44px;
+  }
+  
+  .form-button:hover {
+    background-color: #e65a00;
+  }

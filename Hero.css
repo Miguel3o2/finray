@@ -1,0 +1,145 @@
+
+.enrollment-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #f6f7f5;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .enrollment-header {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    color: #e47d5f;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .main-heading {
+    color: #3c4a2e;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .description {
+    color: #4e5b3a;
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  
+  .enrollment-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .image-section {
+    display: flex;
+    gap: 15px; /* Space between the images */
+    flex: 1;
+    width: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 50%; /* Each image takes half of the section */
+    border-radius: 10px;
+    
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+    position: relative; /* Add this */
+    z-index: 1; /* Add this */
+  }
+  
+  
+  
+  
+  
+  .image-label {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: #e47d5f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 3; 
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .info-box {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .info-number {
+    font-size: 32px;
+    color: #e47d5f;
+    font-weight: bold;
+  }
+  
+  .info-text {
+    max-width: 400px;
+  }
+  
+  .info-text h3 {
+    color: #3c4a2e;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-text p {
+    color: #4e5b3a;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  
+
+  .image-anime:after { 
+    content: ""; 
+    position: absolute; 
+    width: 200%; 
+    height: 0%; 
+    left: 50%; 
+    top: 50%; 
+    background-color: rgba(255,255,255,.3); 
+    transform: translate(-50%,-50%) rotate(-45deg); 
+    z-index: 2;
+    transition: all 600ms linear;
+  } 
+
+  .image-anime:hover:after { 
+    height: 250%; 
+    
+    background-color: transparent;
+  } 
+
+
+  .text-anime {
+    position: relative;
+    z-index: 3;
+    margin-bottom: auto;
+}
